@@ -4,16 +4,18 @@
 [![License](https://img.shields.io/badge/license-Academic-green.svg)](LICENSE)
 
 ## Descrição
+
 Sistema desenvolvido para a disciplina de **Algoritmos e Estruturas de Dados II** que implementa um gerenciador inteligente de tráfego urbano utilizando **Grafo Ponderado** e **Árvore AVL**. O sistema oferece duas interfaces: **terminal interativo** e **interface gráfica** com Tkinter.
 
 ## 🎯 Objetivos
+
 - Implementar estruturas de dados balanceadas (AVL) e grafos de forma funcional
 - Aplicar algoritmos de busca, inserção, remoção e caminho mínimo
 - Demonstrar integração entre duas estruturas de dados distintas
 - Simular um sistema real de gerenciamento de tráfego
 - Fornecer visualização gráfica interativa da malha viária
 
-## 🏗️ Estruturas de Dados
+## 🗂️ Estruturas de Dados
 
 ### Grafo Ponderado
 - **Vértices**: Representam interseções/pontos da cidade
@@ -108,7 +110,7 @@ python src/main.py
 ```
 
 **Funcionalidades do Terminal:**
-- 📝 Menu interativo colorido
+- 🔍 Menu interativo colorido
 - 🗺️ Visualização textual da malha
 - 📋 Listagens detalhadas de eventos
 - 🧮 Cálculos de rotas com análises
@@ -176,12 +178,12 @@ Terminal:
   Tipo: acidente
   Via: A-B
   Impacto: +3.0 km
-  ✓ Via A-B passa de 5.0 km para 8.0 km
+  ✔ Via A-B passa de 5.0 km para 8.0 km
 
 GUI:
   Menu "Eventos" → "Registrar Evento"
   Selecione tipo, via e impacto
-  ✓ Via destacada em vermelho no canvas
+  ✔ Via destacada em vermelho no canvas
 ```
 
 ### Exemplo 3: Calcular Rota com Visualização
@@ -201,7 +203,7 @@ Sem eventos:
 Com evento (acidente A-B, +5km):
   Caminho: A → D → F (rota alternativa)
   Distância: 15.0 km
-  ⚠ Sistema escolhe automaticamente a rota mais rápida!
+  ⚠️ Sistema escolhe automaticamente a rota mais rápida!
 ```
 
 ## 📊 Complexidade das Operações
@@ -227,7 +229,7 @@ Com evento (acidente A-B, +5km):
 
 ### Canvas Interativo
 - 🖱️ Clique para adicionar elementos
-- 📍 Layout circular automático dos vértices
+- 🔄 Layout circular automático dos vértices
 - 🔴 Vias com eventos em vermelho (largura 3px)
 - 🟢 Rotas calculadas em verde (largura 4px)
 - ⚪ Vias normais em cinza (largura 2px)
@@ -246,7 +248,7 @@ Com evento (acidente A-B, +5km):
 - [Nome do Integrante 4] - [Função]
 - [Nome do Integrante 5] - [Função]
 
-## 📝 Relatório Técnico
+## 📄 Relatório Técnico
 
 O relatório completo está disponível em `docs/relatorio.pdf` e contém:
 - ✅ Fundamentação teórica detalhada
