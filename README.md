@@ -278,7 +278,7 @@ Itacoatiara - AM
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para fins acadêmicos como parte do curso de Engenharia de Software da UFAM.
+Este projeto foi desenvolvido para fins acadêmicos como parte do curso de Sistemas de informação do ICET UFAM.
 
 ## 🆘 Suporte
 
